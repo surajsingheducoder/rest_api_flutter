@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "154945386773",
+    "project_id": "tree-app-project",
+    "storage_bucket": "tree-app-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154945386773:android:369400a9f4e5ccb038511c",
+        "android_client_info": {
+          "package_name": "com.example.all_teckstack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154945386773-92016bb649frfs99fn093mrabrvtc35a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC68IIdt3lzx3GERlwA8k-dHivXNOjkYjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154945386773-92016bb649frfs99fn093mrabrvtc35a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "154945386773-a2ar3rs71ue9gaq9ckg59q2tsohiiufs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.passwordValidation"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154945386773:android:ef54e53d001ab9cc38511c",
+        "android_client_info": {
+          "package_name": "com.example.password_validation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154945386773-92016bb649frfs99fn093mrabrvtc35a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC68IIdt3lzx3GERlwA8k-dHivXNOjkYjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154945386773-92016bb649frfs99fn093mrabrvtc35a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "154945386773-a2ar3rs71ue9gaq9ckg59q2tsohiiufs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.passwordValidation"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
