@@ -1,8 +1,10 @@
+import 'package:all_teckstack/api/entries_api/entries_data_list.dart';
 import 'package:flutter/material.dart';
 
 import 'all_screens/auth/google_signin.dart';
 import 'api/get/meta_data.dart';
 import 'api/get/posts_data.dart';
+import 'api/post/post_api.dart';
 
 class AllButton extends StatefulWidget {
   const AllButton({super.key});
@@ -12,6 +14,7 @@ class AllButton extends StatefulWidget {
 }
 
 class _AllButtonState extends State<AllButton> {
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -36,8 +39,15 @@ class _AllButtonState extends State<AllButton> {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: ElevatedButton(onPressed: () {
-                  // Navigator.push(context, MaterialPageRoute(builder: (context) => const GetUData(),));
-                }, child: const Text("Get 2")),
+                  // Navigator.push(context, MaterialPageRoute(builder: (context) => const PostApiChaalkya(),));
+                }, child: const Text("Post data ")),
+              ),
+
+              Padding(
+                padding: const EdgeInsets.all(20),
+                child: ElevatedButton(onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const EntryList(),));
+                }, child: const Text("Get & Delete Api data ")),
               ),
             ],
           ),
